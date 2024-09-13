@@ -1,0 +1,59 @@
+﻿h2 {
+    color: #E02207;
+}
+
+.row {
+    margin-bottom: 24px;
+}
+
+.insBreadcrumbs ul {
+    display: flex;
+    background-color: #3333;
+    padding: 4px 8px;
+}
+
+    .insBreadcrumbs ul li {
+        padding: 0 12px;
+    }
+
+.img-banner {
+    width: 100%;
+}
+
+.brand-item img {
+    height: 24px;
+    border-radius: 30%;
+}
+
+.loai-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .loai-item li {
+        padding: 4px 8px;
+        background-color: #f4f8fa;
+        border-radius: 10px;
+        margin: 8px;
+    }
+
+.card-product {
+    padding: 12px 0;
+}
+
+    .card-product a {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.5s;
+    }
+
+    .card-product :hover {
+        color: #E02207;
+    }
+
+    .card-product .card {
+        border-radius: unset;
+    }

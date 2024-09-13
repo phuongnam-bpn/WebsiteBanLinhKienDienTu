@@ -1,0 +1,88 @@
+img{
+    width: 100%;
+}
+.nav-sidebar__list {
+    display: block;
+}
+
+.border-radius_5px {
+    border-radius: 5px;
+}
+
+.main #carouselExampleIndicators {
+    margin-bottom: 12px;
+}
+
+.main .img-banner {
+    width: 100% !important;
+    border-radius: 5px;
+}
+.main .flashsaleBanner,
+.main .flexBannerNew,
+.main .wrapperBanner {
+    margin-top: 20px;
+}
+
+.main .flashsaleBanner {
+    border: 5px solid #4a17fe;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #4a17fe;
+    padding-top: 0;
+}
+
+.main .homeProduct {
+    margin-top: 20px;
+}
+
+    .main .homeProduct .blockTitle h2 {
+        display: flex;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 0;
+        align-items: center;
+        background-color: #e02027;
+        padding: 2px 4px;
+    }
+
+.homeProduct .blockTitle .list-title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+    .homeProduct .blockTitle .list-title a {
+        font-size: 12px;
+    }
+
+.homeProduct .blockTitle li {
+    border-radius: 30px;
+    border: 1px solid #333;
+    padding: 2px;
+    margin-left: 4px;
+}
+
+.blockContent .card-product .card {
+    overflow: hidden;
+}
+
+.blockContent .card-product img {
+    height: 250px;
+}
+
+.blockContent .card-product a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.5s;
+}
+
+.blockContent .card-product :hover {
+    color: #E02207;
+}
+.blockTitle > .row{
+    align-items: baseline;
+}

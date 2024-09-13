@@ -1,0 +1,28 @@
+﻿img {
+    width: 100%;
+}
+
+.product__price {
+    color: #E02207;
+}
+
+.product__info {
+    margin-bottom: 24px;
+}
+
+.product button {
+    color: white;
+}
+
+.product .buy {
+    background-color: #E02207;
+}
+
+.product .add {
+    background-color: #0991E0;
+}
+
+.list-action {
+    display: flex;
+    justify-content: space-between;
+}
